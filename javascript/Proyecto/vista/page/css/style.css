@@ -1,0 +1,176 @@
+body{
+    color: black;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.fondo{
+    display: flex;
+    background-image: url(../img/fondosi.jpg);
+    width: 100%;
+    height: 450px;
+    background-size: 100% 450px;
+    justify-content: end;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    opacity: 90%;
+}
+
+.tituloInicio{
+  font-family: Agbalumo;
+  font-size: 50px;
+}
+
+
+
+/* catalogo */
+
+.catalogo{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  z-index: 1;
+}
+
+.agregar{
+  background-color: #aa5b80;
+  border-radius: 6px;
+  border: 1px solid #949494;
+  padding:1px 10px;
+  margin-bottom: 2px;
+}
+
+.comprar{
+  background-color: #aa5b80;
+  border-radius: 6px;
+  border: 1px solid #949494;
+  padding:1px 10px;
+}
+
+nav a {
+  text-align: center;
+  color: #949494;
+  text-decoration: none;
+}
+
+  
+nav > li {
+  display:inline-table;
+}
+nav li a {
+  text-align: left;
+  color:white;
+  text-decoration:none;
+  display:block;
+}
+
+
+.submenu {
+  width: 10%;
+  display: none;
+  margin: 2px;
+ 
+}
+
+
+.submenu li {
+  list-style: none;
+  padding: 10px;
+}
+
+.submenu a:hover{
+  color:white; 
+  background-color: #aa5b80;
+  border-radius: 3px;
+  margin: 2px;
+  padding: 5px;
+  text-decoration: none;
+}
+
+nav li:hover .submenu {
+  position: fixed;
+  display:list-item;
+  margin: 0px -30px; 
+  padding: 20px;
+  background-color: #b97d99;
+  text-align: center;
+  border-radius: 1px;
+  z-index: 2;
+}
+
+
+section div .card{
+  margin: 3px;
+  
+}
+
+/* .formulario{
+
+} */
+
+footer{
+    background-color: #292929;
+    color: white;
+    left: 0%;
+    right: 0%;
+    text-align: left;
+}
+
+.somos{
+    border-top:2px solid #cd9bb4;
+    background-color: beige;
+    color: black;
+    padding: 30px;
+    margin-top: 100px;
+    margin-bottom: 10px;
+}
+
+.login-form {
+    margin: 48px 470px;
+    width: 400px;
+    padding: 40px;
+    background-color:#fff;
+    border-radius: 5px;
+  
+  }
+
+  .login-form h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .login-form input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+
+  .login-form input[type="submit"] {
+    background-color: #cd9bb4;
+    color: #000;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .login-form a{
+    text-decoration: none;
+    color: black;
+  }
+
+ 
+
+
+
+
+  
+
+
+
+
+  
