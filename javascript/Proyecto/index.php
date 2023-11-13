@@ -94,7 +94,7 @@ Un delicioso batido de arequipe frío, cremoso y refrescante. Hecho con arequipe
   </section>
 
   </div>
-<section class="somos">
+<!-- <section class="somos">
   
   <form action="enviar-formulario.php" method="post">
   <div class="container">
@@ -137,7 +137,7 @@ Un delicioso batido de arequipe frío, cremoso y refrescante. Hecho con arequipe
     </div>
   </div>
 </form>
-</section>
+</section> -->
 
 <?php
 include_once("vista/page/footer.php");
