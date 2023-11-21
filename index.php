@@ -11,7 +11,7 @@
 </style>
 </head>
 <body>
-<nav class="navbar navbar-expand-lg navbar-dark position-absolute" style="width:100%; height:80px;background-color:#b97d99; right:0; left:0; top:0;">
+<nav class="navbar navbar-expand-lg navbar-dark position-static" style="width:100%; height:80px;background-color:#b97d99; right:0; left:0; top:0;">
   <div class="container-fluid pt-2">
     <div class="navegador">
     <a class="navbar-brand" href="index.php"><img src="vista/page/img/logo.png" alt="logo" width="50%" height="20%"></a>
@@ -32,7 +32,7 @@
 </nav>
 <main>
  <section>
-  <img class="" src="vista/page/img/publicidad.jpg" alt="" width="100%" height="500px">
+  <img class="" src="vista/page/img/publicidad.jpg" alt="publicidad" width="100%" height="500px">
 </section>
   <div class="container center mt-4">
 
@@ -148,15 +148,16 @@ include_once("vista/page/footer.php");
 
 echo'
 <script>
-window.onload = function() {
-  swal("Regístrate o inicia sesión para pedir", {
-  backgroundColor: "#cd9bb4",
-  buttons: ["Quizás luego", true],
+swal("Are you sure you want to do this?", {
+  buttons: ["Oh noez!", true],
 });
-};
 </script>'
 
 ?>
 
 </body>
 </html>
+
+<!-- swal("Regístrate o inicia sesión para pedir", {
+  backgroundColor: "#cd9bb4",
+  buttons: ["Quizás luego", true], -->
