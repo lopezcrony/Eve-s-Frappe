@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     <title>Eve's Frappe</title>
     <style>
   @import url('https://fonts.googleapis.com/css2?family=Agbalumo&display=swap');
@@ -26,18 +27,16 @@
         <a class="nav-link active" aria-current="page" href="compra.php">Inicio</a>
         <a class="nav-link active" href="#"></a>
         <a class="nav-link active " href="#"></a>
-        
-        <a href="">
-        <li><a href="../login.php"><img src="../img/perfil.png" alt=""></a>
-                    <ul class="submenu">
-                        <a href="Page/Trabajo.html">Perfil</a>
-                        <a href="Page/Deportivas.html">Historial de <br> compras</a>
-                        <a href="Page/Deportivas.html">Configuración</a>
-                        <a href="../../../index.php">Cerrar Sesión</a>
-                    </ul>
-                </li>
-        <a class="nav-link active" ></a>
-
+        <div class="dropdown">
+  <button class="btn dropdown-toggle border-0 mb-0" data-bs-toggle="dropdown" aria-expanded="false">
+    <img src="../img/perfil.png" alt="" class="p-2">
+  </button>
+  <ul class="dropdown-menu">
+    <li><button class="dropdown-item" type="button">Action</button></li>
+    <li><button class="dropdown-item" type="button">Another action</button></li>
+    <li><button class="dropdown-item" type="button">Something else here</button></li>
+  </ul>
+</div>
       </div>
     </div>
   </div>
@@ -45,3 +44,4 @@
     
 </body>
 </html>
+

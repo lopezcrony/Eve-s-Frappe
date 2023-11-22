@@ -17,99 +17,27 @@
 <div class="container mt-5">
   <span class="tituloInicio ">Las mejores frappes de Medellín</span>
 </div>
-    
-    <div class="catalogo mb-5">
-    <p class="lead">Encuentra la frappe perfecta para ti</p>
-      <div class="row">
-        <div class="col-md-3">
-        <div class="card" style="width: 18rem; border:2px solid #cd9bb4">
-  <img src="../img/cafeLeche.jpeg" height ="300px" class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">Frappé de Café y Canela</h5>
-    <p class="card-text">Un delicioso batido que contiene café fuerte, leche, hielo y leche condensada, que le da un sabor dulce y cremoso. Se espolvorea con canela</p>
-  </div>
-  </div>
-        </div>
-        <div class="col-md-3">
-        <div class="card" style="width: 18rem; border:2px solid #cd9bb4">
-  <img src="../img/fresasCrema.jpeg" height ="300px" class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">Frappé de Fresas con Crema</h5>
-    <p class="card-text">Un delicioso batido que contiene fresas naturales, leche, hielo y un poco de azúcar. Se corona con crema batida y fresas frescas</p>
-  </div>
-  </div>
-</div>
-<div class="col-md-3">
-        <div class="card" style="width: 18rem; border:2px solid #cd9bb4">
-  <img src="../img/ChocolateChips.jpeg" height ="300px" class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">Frappé de Café Chips</h5>
-    <p class="card-text">Un delicioso batido que contiene café, leche, hielo y jarabe de chocolate, además de chispas de chocolate y malvaviscos como toppings</p>
-  </div>
-  </div>
-</div>
-  <div class="col-md-3">
-        <div class="card" style="width: 18rem; border:2px solid #cd9bb4">
-  <img src="../img/vainillaArequipe.jpeg" height ="300px" class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">Frappé de Vainilla Arequipe</h5>
-    <p class="card-text">
-Un delicioso batido de vainilla con crema batida y caramelo.Combina el sabor suave de la vainilla con el toque cremoso de la crema batida y el sirope de caramelo.</p>
-  </div>
-  </div>
-        </div>
+
+<section class="py-5">
+    <div class="container px-4 px-lg-5 mt-5">
+      <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center" id="productos">
+        
+        
       </div>
-
-
-
-      <div class="row mt-4">
-        <div class="col-md-3">
-        <div class="card" style="width: 18rem; border:2px solid #cd9bb4">
-  <img src="../img/cafeLeche.jpeg" height ="300px" class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">Frappé de Café y Canela</h5>
-    <p class="card-text">Un delicioso batido que contiene café fuerte, leche, hielo y leche condensada, que le da un sabor dulce y cremoso. Se espolvorea con canela</p>
-    <button type="submit" class="agregar">Agregar</button><br>
-    <button type="submit" class="comprar">Comprar</button>
-  </div>
-  </div>
-        </div>
-        <div class="col-md-3">
-        <div class="card" style="width: 18rem; border:2px solid #cd9bb4">
-  <img src="../img/fresasCrema.jpeg" height ="300px" class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">Frappé de Fresas con Crema</h5>
-    <p class="card-text">Un delicioso batido que contiene fresas naturales, leche, hielo y un poco de azúcar. Se corona con crema batida y fresas frescas</p>
-  </div>
-  </div>
-</div>
-<div class="col-md-3">
-        <div class="card" style="width: 18rem; border:2px solid #cd9bb4">
-  <img src="../img/ChocolateChips.jpeg" height ="300px" class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">Frappé de Café Chips</h5>
-    <p class="card-text">Un delicioso batido que contiene café, leche, hielo y jarabe de chocolate, además de chispas de chocolate y malvaviscos como toppings</p>
-  </div>
-  </div>
-</div>
-  <div class="col-md-3">
-        <div class="card" style="width: 18rem; border:2px solid #cd9bb4">
-  <img src="../img/vainillaArequipe.jpeg" height ="300px" class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">Frappé de Vainilla Arequipe</h5>
-    <p class="card-text">
-Un delicioso batido de vainilla con crema batida y caramelo.Combina el sabor suave de la vainilla con el toque cremoso de la crema batida y el sirope de caramelo.</p>
-  </div>
-  </div>
-        </div>
-      </div>
-        <!-- <a href="frappes.html" class="btn btn-success justify-conten-center">Ver más frappes</a> -->
-    </div>
     </div>
   </section>
+  <div id="carrito">
+    <h2>Plan de viaje</h2>
+    <ul id="items-carrito"></ul>
+    <p>Total: $<span id="total-carrito">0</span></p>
+    <button onclick="vaciarCarrito()">Vaciar Carrito</button>
+</div>
+
 
   <?php
 include_once("../footer.php");
 ?>
+
+<script src="../Js/MyScript.js"></script>
 </body>
 </html>
