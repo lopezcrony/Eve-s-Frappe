@@ -32,7 +32,7 @@
 </nav>
 <main>
  <section>
-  <img class="" src="vista/page/img/publicidad.jpg" alt="publicidad" width="100%" height="500px">
+  <img class="" src="vista/page/img/" alt="publicidad" width="100%" height="500px">
 </section>
   <div class="container center mt-4">
 
@@ -76,7 +76,7 @@ Un delicioso batido de arequipe frío, cremoso y refrescante. Hecho con arequipe
     <div class="container mt-5">
     <div class="row">
         <div class="col-md-6 mt-5">
-          <img src="img/logo.png" alt="">
+          <img src="vista/page/img/logo.png" alt="">
         </div>
         <div class="col-md-6">
       <h2 class="mt-5">¿Quiénes somos?</h2>
