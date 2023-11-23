@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" href="vista/page/css/style.css">
+    <link rel="stylesheet" href="vista/css/style.css">
     <title>Eve's Frappe</title>
     <style>
   @import url('https://fonts.googleapis.com/css2?family=Agbalumo&display=swap');
@@ -14,7 +14,7 @@
 <nav class="navbar navbar-expand-lg navbar-dark position-static" style="width:100%; height:80px;background-color:#b97d99; right:0; left:0; top:0;">
   <div class="container-fluid pt-2">
     <div class="navegador">
-    <a class="navbar-brand" href="index.php"><img src="vista/page/img/logo.png" alt="logo" width="50%" height="20%"></a>
+    <a class="navbar-brand" href="index.php"><img src="vista/img/logo.png" alt="logo" width="50%" height="20%"></a>
     </div>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -22,8 +22,6 @@
     <div class="collapse navbar-collapse p-3" id="navbarNavAltMarkup">
       <div class="navbar-nav ms-auto">
         <a class="nav-link active" aria-current="page" href="index.php">Inicio</a>
-        <a class="nav-link active" href="clientes.php"></a>
-        <a class="nav-link active " href="operaciones.php"></a>
         <a class="nav-link active" href="vista/page/login.php">Login</a>
 
       </div>
@@ -32,7 +30,7 @@
 </nav>
 <main>
  <section>
-  <img class="" src="vista/page/img/" alt="publicidad" width="100%" height="500px">
+  <img class="" src="vista/img/publicidad_Inicio.jpeg" alt="publicidad" width="100%" height="500px">
 </section>
   <div class="container center mt-4">
 
@@ -42,7 +40,7 @@
       <div class="row">
         <div class="col-md-4">
         <div class="card" style="width: 18rem; border:2px solid #cd9bb4;">
-  <img src="vista/page/img/F_Cafe.jpeg" height ="300px" class="card-img-top" alt="...">
+  <img src="vista/img/F_Cafe.jpeg" height ="300px" class="card-img-top" alt="...">
   <div class="card-body">
     <h5 class="card-title">Frappé de Café</h5>
     <p class="card-text">Un delicioso batido de café frío, cremoso y refrescante. Hecho con café recién hecho, leche y hielo, y endulzado a tu gusto</p>
@@ -51,7 +49,7 @@
         </div>
         <div class="col-md-4">
         <div class="card" style="width: 18rem; border:2px solid #cd9bb4">
-  <img src="vista/page/img/frutos rojos.webp" height ="300px" class="card-img-top" alt="...">
+  <img src="vista/img/frutos rojos.webp" height ="300px" class="card-img-top" alt="...">
   <div class="card-body">
     <h5 class="card-title">Frappé de Frutos Rojos</h5>
     <p class="card-text">Un delicioso batido de café frío, cremoso y refrescante. Hecho con café recién hecho, leche y hielo, y endulzado a tu gusto</p>
@@ -60,7 +58,7 @@
 </div>
   <div class="col-md-4">
         <div class="card" style="width: 18rem; border:2px solid #cd9bb4">
-  <img src="vista/page/img/F_Arequipe.jpeg" height ="300px" class="card-img-top" alt="...">
+  <img src="vista/img/F_Arequipe.jpeg" height ="300px" class="card-img-top" alt="...">
   <div class="card-body">
     <h5 class="card-title">Frappé de Arequipe</h5>
     <p class="card-text">
@@ -76,7 +74,7 @@ Un delicioso batido de arequipe frío, cremoso y refrescante. Hecho con arequipe
     <div class="container mt-5">
     <div class="row">
         <div class="col-md-6 mt-5">
-          <img src="vista/page/img/logo.png" alt="">
+          <img src="vista/img/logo.png" alt="">
         </div>
         <div class="col-md-6">
       <h2 class="mt-5">¿Quiénes somos?</h2>
@@ -144,16 +142,16 @@ include_once("vista/page/footer.php");
   
 </main>  
 <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
-<?php
+<!-- <?php
 
-echo'
-<script>
-swal("Are you sure you want to do this?", {
-  buttons: ["Oh noez!", true],
-});
-</script>'
+// echo'
+// <script>
+// swal("Are you sure you want to do this?", {
+//   buttons: ["Oh noez!", true],
+// });
+// </script>'
 
-?>
+?> -->
 
 </body>
 </html>
