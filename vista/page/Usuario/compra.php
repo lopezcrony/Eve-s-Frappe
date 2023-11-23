@@ -38,6 +38,6 @@
 include_once("../footer.php");
 ?>
 
-<script src="../..g/Js/MyScript.js"></script>
+<script src="../../Js/MyScript.js"></script>
 </body>
 </html>
