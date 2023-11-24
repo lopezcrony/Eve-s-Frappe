@@ -1,6 +1,6 @@
 const productos = [
-    { id: 1, nombre: 'roma', precio: 800 , imagen: 'img/roma.jpg'},
-    { id: 2, nombre: 'mexico', precio: 300, imagen: 'img/mexico.jpg' },
+    { id: 1, nombre: 'Frappé de Café y Canela', precio: 15000, descripcion:'Un delicioso batido que contiene café fuerte, leche, hielo y leche condensada, que le da un sabor dulce y cremoso. Se espolvorea con canela',imagen: '../img/cafeLeche.jpeg'},
+    { id: 2, nombre: 'mexico', precio: 120, imagen: 'img/mexico.jpg' },
     { id: 3, nombre: 'colombia', precio: 350, imagen: 'img/colombia.jpg' },
     { id: 4, nombre: 'vaticano', precio: 500, imagen: 'img/vaticano.jpg' },
     { id: 5, nombre: 'cuba', precio: 500, imagen: 'img/cuba.jpg' },
@@ -40,7 +40,7 @@ detallesProducto.className = 'card-body p-4';
 // Nombre del producto
 const nombreProducto = document.createElement('h5');
 nombreProducto.className = 'fw-bolder';
-nombreProducto.textContent = producto.nombre;
+nombreProducto.textContent = producto.nombre
 detallesProducto.appendChild(nombreProducto);
 
 // Precio del producto
@@ -48,9 +48,16 @@ const precioProducto = document.createElement('div');
 precioProducto.textContent = `Precio: $${producto.precio}`;
 detallesProducto.appendChild(precioProducto);
 
+
+const descripcionProducto = document.createElement('div');
+descripcionProducto.textContent = `${producto.descripcion}`;
+detallesProducto.appendChild(descripcionProducto);
+
 detallesProducto.className = 'text-center';
 detallesProducto.appendChild(nombreProducto);
 detallesProducto.appendChild(precioProducto);
+detallesProducto.appendChild(descripcionProducto);
+
 
 cardBootstrap.appendChild(detallesProducto);
 

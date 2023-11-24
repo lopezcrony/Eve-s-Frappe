@@ -250,7 +250,7 @@
         <div class="card" style="width: 18rem; border:2px solid #cd9bb4">
   <img src="../img/cafeLeche.jpeg" height ="300px" class="card-img-top" alt="...">
   <div class="card-body">
-    <h5 class="card-title">Frappé de Café y Canela</h5>
+    <h5 class="card-title"></h5>
     <p class="card-text">Un delicioso batido que contiene café fuerte, leche, hielo y leche condensada, que le da un sabor dulce y cremoso. Se espolvorea con canela</p>
   </div>
   </div>

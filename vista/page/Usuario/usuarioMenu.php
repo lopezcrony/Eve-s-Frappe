@@ -15,7 +15,7 @@
 <nav class="navbar navbar-expand-lg navbar-dark position-relative" style="width:100%; height:80px;background-color:#b97d99; right:0; left:0;">
   <div class="container-fluid pt-2">
     <div class="navegador">
-    <a class="navbar-brand" href="compra.php"><img src="../img/logo.png" alt="logo" width="50%" height="90%"></a>
+    <a class="navbar-brand" href="compra.php"><img src="../../img/logo.png" alt="logo" width="50%" height="90%"></a>
     </div>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
