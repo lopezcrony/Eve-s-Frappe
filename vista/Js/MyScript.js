@@ -1,8 +1,8 @@
 const productos = [
-    { id: 1, nombre: 'Frappé de Café y Canela', precio: 15000, descripcion:'Un delicioso batido que contiene café fuerte, leche, hielo y leche condensada, que le da un sabor dulce y cremoso. Se espolvorea con canela',imagen: '../img/cafeLeche.jpeg'},
-    { id: 2, nombre: 'mexico', precio: 120, imagen: 'img/mexico.jpg' },
-    { id: 3, nombre: 'colombia', precio: 350, imagen: 'img/colombia.jpg' },
-    { id: 4, nombre: 'vaticano', precio: 500, imagen: 'img/vaticano.jpg' },
+    { id: 1, nombre: 'Frappé de Café y Canela', precio: 15000, descripcion:'Un delicioso batido que contiene café fuerte, leche, hielo y leche condensada, que le da un sabor dulce y cremoso. Se espolvorea con canela',imagen: '../../img/cafeLeche.jpeg'},
+    { id: 2, nombre: 'Frappé de Fresas con Crema', precio: 17000, descripcion:'Un delicioso batido que contiene fresas naturales, leche, hielo y un poco de azúcar. Se corona con crema batida y fresas frescas', imagen:'../../img/fresasCrema.jpeg'},
+    { id: 3, nombre: 'Frappé de Café Chips', precio: 17000, descripcion: 'Un delicioso batido que contiene café, leche, hielo y jarabe de chocolate, además de chispas de chocolate y malvaviscos como toppings', imagen: '../../img/ChocolateChips.jpeg' },
+    { id: 4, nombre: 'vaticano', precio: 500, imagen: '' },
     { id: 5, nombre: 'cuba', precio: 500, imagen: 'img/cuba.jpg' },
     { id: 6, nombre: 'Estados Unidos', precio: 500, imagen: 'img/estados.jpg' },
     { id: 7, nombre: 'Argentina', precio: 500, imagen: 'img/argentina.jpg' },
@@ -25,7 +25,8 @@ tarjetaProducto.className = 'col mb-5';
 
 // Crear la card de Bootstrap
 const cardBootstrap = document.createElement('div');
-cardBootstrap.className = 'card h-100';
+cardBootstrap.className = 'card h-60';
+
 
 // Agregar la imagen del producto
 const imagenProducto = document.createElement('img');
@@ -43,9 +44,11 @@ nombreProducto.className = 'fw-bolder';
 nombreProducto.textContent = producto.nombre
 detallesProducto.appendChild(nombreProducto);
 
+
 // Precio del producto
 const precioProducto = document.createElement('div');
 precioProducto.textContent = `Precio: $${producto.precio}`;
+precioProducto.className='fw-bolder'
 detallesProducto.appendChild(precioProducto);
 
 
@@ -53,21 +56,22 @@ const descripcionProducto = document.createElement('div');
 descripcionProducto.textContent = `${producto.descripcion}`;
 detallesProducto.appendChild(descripcionProducto);
 
-detallesProducto.className = 'text-center';
+detallesProducto.className = 'text-center p-3';
 detallesProducto.appendChild(nombreProducto);
-detallesProducto.appendChild(precioProducto);
 detallesProducto.appendChild(descripcionProducto);
+detallesProducto.appendChild(precioProducto);
+
 
 
 cardBootstrap.appendChild(detallesProducto);
 
-// Acciones del producto (botón "Viajar" en este caso)
+// Acciones del producto (botón Agregar en este caso)
 const accionesProducto = document.createElement('div');
-accionesProducto.className = 'card-footer p-4 pt-0 border-top-0 bg-transparent text-center mt-3';
+accionesProducto.className = 'card-footer p-4 pt-0 border-top-0 bg-transparent text-center mt-3 ';
 
 const botonViajar = document.createElement('button');
 botonViajar.className = 'btn btn-outline-dark mt-auto text-center';
-botonViajar.textContent = 'Viajar';
+botonViajar.textContent = 'Agregar';
 // Asociar la función agregarAlCarrito al evento click del botón Viajar
 botonViajar.onclick = () => agregarAlCarrito(producto.nombre, producto.precio);
 
@@ -79,6 +83,16 @@ tarjetaProducto.appendChild(cardBootstrap);
 
 // Agregar el contenedor de la tarjeta de producto al contenedor general
 contenedorProductos.appendChild(tarjetaProducto);
+
+function cambiarColorLetraYPaddingDetallesProducto() {
+  const detallesProducto = document.querySelectorAll('.card-body');
+
+  for (let detalleProducto of detallesProducto) {
+    detalleProducto.style.color = '#000';
+    detalleProducto.style.fontWeight='600';
+  }
+}
+
 }
 }
 
@@ -115,7 +129,7 @@ function actualizarCarrito() {
         elementoItemCarrito.className = 'item-carrito';
 
         const nombreItem = document.createElement('span');
-        nombreItem.textContent = ` ${item.nombre} (Precio por dia: $${item.precio}) dias de estancia: ${item.cantidad}`;
+        nombreItem.textContent = ` ${item.nombre} (Precio: $${item.precio}) Cantidad: ${item.cantidad}`;
 
         const controlesItem = document.createElement('div');
 

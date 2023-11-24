@@ -246,32 +246,9 @@
     <div class="catalogo mb-5">
     <p class="lead">Encuentra la frappe perfecta para ti</p>
       <div class="row">
-        <div class="col-md-3">
-        <div class="card" style="width: 18rem; border:2px solid #cd9bb4">
-  <img src="../img/cafeLeche.jpeg" height ="300px" class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title"></h5>
-    <p class="card-text">Un delicioso batido que contiene café fuerte, leche, hielo y leche condensada, que le da un sabor dulce y cremoso. Se espolvorea con canela</p>
-  </div>
   </div>
         </div>
-        <div class="col-md-3">
-        <div class="card" style="width: 18rem; border:2px solid #cd9bb4">
-  <img src="../img/fresasCrema.jpeg" height ="300px" class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">Frappé de Fresas con Crema</h5>
-    <p class="card-text">Un delicioso batido que contiene fresas naturales, leche, hielo y un poco de azúcar. Se corona con crema batida y fresas frescas</p>
-  </div>
-  </div>
-</div>
-<div class="col-md-3">
-        <div class="card" style="width: 18rem; border:2px solid #cd9bb4">
-  <img src="../img/ChocolateChips.jpeg" height ="300px" class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">Frappé de Café Chips</h5>
-    <p class="card-text">Un delicioso batido que contiene café, leche, hielo y jarabe de chocolate, además de chispas de chocolate y malvaviscos como toppings</p>
-  </div>
-  </div>
+      
 </div>
   <div class="col-md-3">
         <div class="card" style="width: 18rem; border:2px solid #cd9bb4">
