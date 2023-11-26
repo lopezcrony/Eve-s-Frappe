@@ -30,7 +30,7 @@
 </nav>
 <main>
  <section>
-  <img class="" src="vista/img/publicidad_Inicio.jpeg" alt="publicidad" width="100%" height="500px">
+  <img class="" src="vista/img/publicidad_Inicio.png" alt="publicidad" width="100%" height="500px">
 </section>
   <div class="container center mt-4">
 

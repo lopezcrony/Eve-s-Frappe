@@ -20,7 +20,12 @@
     <h1>Inicio de sesión</h1>
     <input type="email" placeholder="Correo">
     <input type="password" placeholder="Contraseña">
-    <input type="submit" value="Iniciar sesión">
+    <button type="submit" onclick="password"  style="background-color: #cd9bb4; color: #000;
+    font-weight: bold;">Inicia</button ><br><br>
+    <a href="Usuario/compra.php" ><input type="button" value="Usuario" style="background-color: #cd9bb4; color: #000;
+    font-weight: bold;" ></a>
+    <a href="Admin/adminMenu.php" ><input type="button" value="Admin" style="background-color: #cd9bb4; color: #000;
+    font-weight: bold;" ></a>
     <a href="logout.php">¿Aún no tienes cuenta? Regístrate</a>
   </div>
  
@@ -43,6 +48,6 @@
 
 
         <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="js/main.js"></script>
+        <script src="../Js/MyScript.js"></script>
 </body>
 </html>

@@ -2,11 +2,11 @@ const productos = [
     { id: 1, nombre: 'Frappé de Café y Canela', precio: 15000, descripcion:'Un delicioso batido que contiene café fuerte, leche, hielo y leche condensada, que le da un sabor dulce y cremoso. Se espolvorea con canela',imagen: '../../img/cafeLeche.jpeg'},
     { id: 2, nombre: 'Frappé de Fresas con Crema', precio: 17000, descripcion:'Un delicioso batido que contiene fresas naturales, leche, hielo y un poco de azúcar. Se corona con crema batida y fresas frescas', imagen:'../../img/fresasCrema.jpeg'},
     { id: 3, nombre: 'Frappé de Café Chips', precio: 17000, descripcion: 'Un delicioso batido que contiene café, leche, hielo y jarabe de chocolate, además de chispas de chocolate y malvaviscos como toppings', imagen: '../../img/ChocolateChips.jpeg' },
-    { id: 4, nombre: 'vaticano', precio: 500, imagen: '' },
-    { id: 5, nombre: 'cuba', precio: 500, imagen: 'img/cuba.jpg' },
-    { id: 6, nombre: 'Estados Unidos', precio: 500, imagen: 'img/estados.jpg' },
-    { id: 7, nombre: 'Argentina', precio: 500, imagen: 'img/argentina.jpg' },
-    { id: 8, nombre: 'Noruega', precio: 500, imagen: 'img/noruega.jpg' }
+    { id: 4, nombre: 'Frappé de Vainilla Arequipe', precio: 16000, descripcion:'Un delicioso batido de vainilla con crema batida y caramelo.Combina el sabor suave de la vainilla con el toque cremoso de la crema batida y el sirope de caramelo.', imagen: '../../img/vainillaArequipe.jpeg' },
+    { id: 5, nombre: 'Frappé explosión de mango', precio: 18000, descripcion:'Un delicioso batido que contiene mango maduro, leche de coco, hielo y un poco de miel. Se decora con trozos de mango para darle una textura más agradable.', imagen:'../../img/fCoco.jpeg' },
+    { id: 6, nombre: 'Frappé de oreo', precio: 20000, descripcion:'Un delicioso batido que contiene leche, hielo y galletas oreo licuadas, que le dan un sabor único y una consistencia cremosa. Se adorna con crema batida y galletas oreo trituradas.', imagen: '../../img/F_Oreo.jpeg' },
+    { id: 7, nombre: 'Frappé de té verde', precio: 15000, descripcion:'Un delicioso batido que es una opción diferente y refrescante, contiene té verde frío, leche, hielo y un poco de azúcar. Se adorna con hojas de menta para darle un toque aromático y refrescante.', imagen: '../../img/F_Menta.jpeg' },
+    { id: 8, nombre: 'Frappé de piña colada', precio: 20000, descripcion:'Un delicioso batido la cual es una versión sin alcohol de la famosa bebida piña colada, ya que contiene piña natural, leche de coco, hielo y un poco de azúcar. Se decora con trozos de piña.', imagen: '../../img/F_Piña.jpeg' }
 
 ];
 
@@ -191,4 +191,6 @@ function eliminarItem(index) {
 renderizarProductos();
 
 
+
+//Formulario de registro
 
